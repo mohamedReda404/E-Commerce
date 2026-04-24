@@ -1193,6 +1193,9 @@
       "Ecommerce.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.7"
+        },
         "compile": {
           "bin/placeholder/Ecommerce.Domain.dll": {}
         },
@@ -1205,7 +1208,16 @@
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Ecommerce.Application": "1.0.0",
-          "Ecommerce.Domain": "1.0.0"
+          "Ecommerce.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.7",
+          "Microsoft.AspNetCore.OpenApi": "10.0.4",
+          "Microsoft.EntityFrameworkCore": "10.0.7",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.7",
+          "SharpGrip.FluentValidation.AutoValidation.Mvc": "2.0.0",
+          "Swashbuckle.AspNetCore.Swagger": "10.1.7",
+          "Swashbuckle.AspNetCore.SwaggerGen": "10.1.7",
+          "Swashbuckle.AspNetCore.SwaggerUI": "10.1.7"
         },
         "compile": {
           "bin/placeholder/Ecommerce.Infrastructure.dll": {}

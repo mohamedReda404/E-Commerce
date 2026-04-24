@@ -1,6 +1,9 @@
-﻿namespace Ecommerce.API.Entities
+﻿
+using Microsoft.AspNetCore.Identity;
+
+namespace Ecommerce.Domain.Entities
 {
-    public class User
+    public class User:IdentityUser
     {
     }
 }
