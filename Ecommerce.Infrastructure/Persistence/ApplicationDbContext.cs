@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Text;
 
 namespace Ecommerce.Infrastructure.Persistence
@@ -11,6 +12,7 @@ namespace Ecommerce.Infrastructure.Persistence
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
+         
         }
 
         protected ApplicationDbContext()
@@ -19,7 +21,10 @@ namespace Ecommerce.Infrastructure.Persistence
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             base.OnModelCreating(builder);
         }
+
+        public DbSet<User> users {  get; set; }
     }
 }

@@ -9,3 +9,5 @@ D:\RealProjects\Ecommerce.API\Ecommerce.Domain\obj\Debug\net10.0\Ecommerce.Domai
 D:\RealProjects\Ecommerce.API\Ecommerce.Domain\obj\Debug\net10.0\refint\Ecommerce.Domain.dll
 D:\RealProjects\Ecommerce.API\Ecommerce.Domain\obj\Debug\net10.0\Ecommerce.Domain.pdb
 D:\RealProjects\Ecommerce.API\Ecommerce.Domain\obj\Debug\net10.0\ref\Ecommerce.Domain.dll
+D:\RealProjects\Ecommerce.API\Ecommerce.Domain\obj\Debug\net10.0\Ecommerce.Domain.csproj.AssemblyReference.cache
+D:\RealProjects\Ecommerce.API\Ecommerce.Domain\obj\Debug\net10.0\Ecommerce.Domain.sourcelink.json
